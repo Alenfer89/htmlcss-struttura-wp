@@ -35,12 +35,17 @@ body{
     width: 100%;
     height: 200px;
 }
-.realcontent{
+section{
     width: 100%;
     height: 600px;
 }
 .marginbt20{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+main{
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px;
 }
 footer{
     width: 100%;
@@ -49,10 +54,16 @@ footer{
 .article-title{
     width: 100%;
     height: 100px;
+    margin-bottom: 15px;
 }
 aside{
     width: 25%;
-    
+    height: calc((100% - 100px) - 30px);
+}
+article{
+    width: calc(50% - 20px);
+    height: calc((100% - 100px) - 30px);
+    margin: 0px 10px;
 }
 /* colors */
 .bgpurple{
