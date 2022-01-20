@@ -33,12 +33,11 @@
     background-color: rgb(245, 245, 113);
 }
 /* sizing */
-.container{
+.paging{
     margin: 40px auto;
     width: 80%;
 }
 .realheader{
-    width: 100%;
     height: 200px;
 }
 section{
@@ -47,7 +46,6 @@ section{
 }
 main{
     width: 100%;
-    height: 650px;
     margin-bottom: 10px;
 }
 footer{
@@ -61,11 +59,12 @@ footer{
 }
 aside{
     width: 25%;
-    height: calc((100% - 100px) - 60px);
+    height: 500px;
+    margin-bottom: 30px;
 }
 article{
     width: calc(50% - 40px);
-    height: calc((100% - 100px) - 60px);
+    height: 500px;
     margin: 0px 20px;
 }
 
